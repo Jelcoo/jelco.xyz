@@ -5,7 +5,7 @@
     "tailwindcss": "^3.2.4"
   },
   "scripts": {
-    "tw:watch": "npx tailwindcss -i ./assets/css/base.css -o ./assets/css/tailwind.css --watch",
-    "tw:generate": "npx tailwindcss -i ./assets/css/base.css -o ./assets/css/tailwind.css"
+    "tw:dev": "npx tailwindcss -i ./assets/css/base.css -o ./assets/css/tailwind.css --watch",
+    "tw:build": "npx tailwindcss -i ./assets/css/base.css -o ./assets/css/tailwind.css"
   }
 }
