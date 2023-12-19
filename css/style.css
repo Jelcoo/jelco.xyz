@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Noto%20Sans);
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+:root {
+    --primary-text: rgb(228 228 231);
+}
+
+body {
+    background-color: rgb(39 39 42);
+}
+
+#topnav {
+    height: 7rem;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, rgb(39 39 42) 0%, rgb(82 82 91) 50% , rgb(39 39 42) 100%) 30;
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#topnav a {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+}
+
+#topnav a h1 {
+    font-size: 3rem;
+    background: -webkit-linear-gradient(40deg, rgb(212, 190, 3), rgb(9, 106, 189));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#topnav #social-links {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#topnav #social-links a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#topnav #social-links i {
+    transition: all .2s ease-in-out;
+}
+
+#topnav #social-links i:hover {
+    transform: scale(1.2);
+}
+
+.linkedin {
+    color: rgb(10, 102, 194);
+}
+
+.github {
+    color: rgb(255, 255, 255);
+}
