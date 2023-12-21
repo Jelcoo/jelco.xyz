@@ -13,6 +13,34 @@ body {
     background-color: rgb(39 39 42);
 }
 
+h1, h2, h3, h4, h5, h6, span, p, a, li, button, input, label, textarea, select {
+    color: var(--primary-text);
+}
+
+/*
+ * General Styles
+ */
+
+.hover-grow {
+    transition: all .2s ease-in-out;
+}
+
+.hover-grow:hover {
+    transform: scale(1.2);
+}
+
+.link-style {
+    color: rgb(0, 160, 255);
+}
+
+.link-style:hover {
+    color: rgb(0, 120, 255);
+    text-decoration: underline;
+}
+
+/*
+ * Top Navigation
+ */
 #topnav {
     height: 7rem;
     border-bottom-width: 4px;
@@ -48,18 +76,49 @@ body {
     margin-right: 1rem;
 }
 
-#topnav #social-links i {
-    transition: all .2s ease-in-out;
-}
-
-#topnav #social-links i:hover {
-    transform: scale(1.2);
-}
-
 .linkedin {
     color: rgb(10, 102, 194);
 }
 
 .github {
     color: rgb(255, 255, 255);
+}
+
+/*
+ * Main Content
+ */
+
+#home {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 768px) { /* Mobile */
+    #home {
+        max-width: 95%;
+    }
+}
+
+@media screen and (min-width: 768px) { /* Desktop */
+    #home {
+        max-width: 80%;
+    }
+}
+
+.grid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 50%));
+    grid-gap: 1rem;
+}
+
+.grid article {
+    background-color: rgb(54 54 57);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+section a {
+    text-decoration: none;
 }
