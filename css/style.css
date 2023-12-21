@@ -38,6 +38,38 @@ h1, h2, h3, h4, h5, h6, span, p, a, li, button, input, label, textarea, select {
     text-decoration: underline;
 }
 
+.linkedin {
+    color: rgb(10, 102, 194);
+}
+
+.github {
+    color: rgb(255, 255, 255);
+}
+
+.javascript {
+    color: rgb(239, 216, 29);
+}
+
+.html5 {
+    color: rgb(227, 76, 38);
+}
+
+.css3 {
+    color: rgb(21, 114, 182);
+}
+
+.php {
+    color: rgb(79, 93, 149);
+}
+
+.laravel {
+    color: rgb(255, 45, 32);
+}
+
+.react {
+    color: rgb(97, 218, 251);
+}
+
 /*
  * Top Navigation
  */
@@ -76,18 +108,9 @@ h1, h2, h3, h4, h5, h6, span, p, a, li, button, input, label, textarea, select {
     margin-right: 1rem;
 }
 
-.linkedin {
-    color: rgb(10, 102, 194);
-}
-
-.github {
-    color: rgb(255, 255, 255);
-}
-
 /*
  * Main Content
  */
-
 #home {
     margin-top: 2rem;
     margin-left: auto;
@@ -135,4 +158,34 @@ h1, h2, h3, h4, h5, h6, span, p, a, li, button, input, label, textarea, select {
 
 .article-button:hover {
     background-color: rgb(66, 66, 70);
+}
+
+#experience {
+    margin-top: 2rem;
+}
+
+#experience > h3 {
+    margin-top: 1rem;
+}
+
+.grid article i {
+    font-size: 6rem;
+}
+
+#experience section article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+ * Footer
+ */
+#footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
