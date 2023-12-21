@@ -108,6 +108,12 @@ h1, h2, h3, h4, h5, h6, span, p, a, li, button, input, label, textarea, select {
     margin-right: 1rem;
 }
 
+@media screen and (max-width: 768px) { /* Mobile */
+    #topnav #social-links {
+        display: none;
+    }
+}
+
 /*
  * Main Content
  */
@@ -142,7 +148,7 @@ h1, h2, h3, h4, h5, h6, span, p, a, li, button, input, label, textarea, select {
     padding: 1rem;
 }
 
-.article-button {
+.link-button {
     display: block;
     margin-top: 1rem;
     border-radius: 5px;
@@ -156,7 +162,7 @@ h1, h2, h3, h4, h5, h6, span, p, a, li, button, input, label, textarea, select {
     text-decoration: none;
 }
 
-.article-button:hover {
+.link-button:hover {
     background-color: rgb(66, 66, 70);
 }
 
