@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6, span, p, a, li, button, input, label, textarea, select {
 .grid {
     margin-top: 1rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 50%));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
 }
 
@@ -119,6 +119,20 @@ h1, h2, h3, h4, h5, h6, span, p, a, li, button, input, label, textarea, select {
     padding: 1rem;
 }
 
-section a {
+.article-button {
+    display: block;
+    margin-top: 1rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: fit-content;
+    background-color: rgb(86, 86, 90);
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
     text-decoration: none;
+}
+
+.article-button:hover {
+    background-color: rgb(66, 66, 70);
 }
