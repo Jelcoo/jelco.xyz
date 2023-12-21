@@ -95,6 +95,7 @@ h1, h2, h3, h4, h5, h6, span, p, a, li, button, input, label, textarea, select {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    width: fit-content;
 }
 
 #topnav #social-links {
@@ -109,8 +110,19 @@ h1, h2, h3, h4, h5, h6, span, p, a, li, button, input, label, textarea, select {
 }
 
 @media screen and (max-width: 768px) { /* Mobile */
-    #topnav #social-links {
-        display: none;
+    #topnav {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: block;
+    }
+
+    #topnav #social-links a {
+        margin-left: 0;
+        margin-right: 1rem;
+    }
+
+    #topnav #social-links i {
+        margin-bottom: 0.5rem;
     }
 }
 
